@@ -10,6 +10,7 @@ public class SudokuVerifier {
 		while (candidateSolution.length()==81 && (candidateSolution.charAt(i)>=1 && candidateSolution.charAt(i)<=9)&& i!=81) {	
 			i++;
 		}
+		
 		if(i == 81){
 			return 1;
 		}else{
