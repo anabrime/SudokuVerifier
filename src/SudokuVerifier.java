@@ -11,10 +11,10 @@ public class SudokuVerifier {
 			i++;
 		}
 		
-		if(i == 81){
+		if(i == 0){
 			return 1;
 		}else{
-			return 1;
+			return -1;
 		}
 	}
 
