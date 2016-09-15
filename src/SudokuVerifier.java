@@ -7,26 +7,23 @@ public class SudokuVerifier {
 		//Que mida 81 y este entre 1 y 9
 
 		if(candidateSolution.length() != 81) return -5;
-		
+
 		for (int i = 0; i < 81; i++) {
-			
-			if(!(candidateSolution.charAt(i)>=1 && candidateSolution.charAt(i)<=9)) return -1;
 
-			}
-		return 1;
+			if((candidateSolution.charAt(i)<1 && candidateSolution.charAt(i)>9)) return -1;
+
+
+
 		}
-	
-	
-	
-	
 	}
-	
-	
-	
-	
+}
 
 
-	//check
+
+
+
+
+//check
 
 
 
