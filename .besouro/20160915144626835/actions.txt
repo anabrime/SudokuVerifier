@@ -54,3 +54,12 @@ CompilationAction 1473944434660 SudokuVerifier.java
 EditAction 1473944441250 SudokuVerifier.java 381 1 1 0
 CompilationAction 1473944441499 SudokuVerifier.java
 EditAction 1473944445314 SudokuVerifier.java 379 1 2 0
+CompilationAction 1473944445407 SudokuVerifier.java
+RefactoringAction 1473944459859 SudokuVerifier.java ADD int verify FIELD
+RefactoringAction 1473944464374 SudokuVerifier.java RENAME verify=>int verify_ FIELD
+RefactoringAction 1473944465386 SudokuVerifier.java RENAME verify_=>int verify_Row FIELD
+RefactoringAction 1473944466897 SudokuVerifier.java RENAME verify_Row=>int verify_Rows FIELD
+RefactoringAction 1473944468408 SudokuVerifier.java RENAME verify_Rows=>int verify_Rows() METHOD
+RefactoringAction 1473944475419 SudokuVerifier.java RENAME verify_Rows()=>int verify_Rows(String) METHOD
+RefactoringAction 1473944523462 SudokuVerifier.java REMOVE verify_Rows(String) METHOD
+EditAction 1473944527267 SudokuVerifier.java 399 1 3 0

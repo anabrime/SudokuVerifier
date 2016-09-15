@@ -13,7 +13,12 @@ public class SudokuVerifier {
 			if(!(candidateSolution.charAt(i)>=1 && candidateSolution.charAt(i)<=9)) return -1;
 
 			}
+		return 1;
 		}
+	
+	
+	
+	
 	}
 	
 	
