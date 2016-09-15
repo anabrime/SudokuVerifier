@@ -95,3 +95,12 @@ EditAction 1473944892034 SudokuVerifierTest.java 812 2 6 2
 UnitTestCaseAction 1473944893341 SudokuVerifierTest.java OK
 UnitTestSessionAction 1473944893342 SudokuVerifierTest.java OK
 EditAction 1473944902214 SudokuVerifierTest.java 732 2 6 2
+UnitTestCaseAction 1473944903825 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473944903825 SudokuVerifierTest.java OK
+RefactoringAction 1473945027475 SudokuVerifier.java ADD import java.awt.FontFormatException IMPORT
+RefactoringAction 1473945030488 SudokuVerifier.java ADD void FontFormatException() METHOD
+RefactoringAction 1473945036527 SudokuVerifier.java REMOVE FontFormatException() METHOD
+RefactoringAction 1473945038038 SudokuVerifier.java ADD int i FIELD
+RefactoringAction 1473945079628 SudokuVerifier.java REMOVE i FIELD
+RefactoringAction 1473945220154 SudokuVerifier.java ADD import java.sql.Array IMPORT
+EditAction 1473945409884 SudokuVerifier.java 460 1 4 0
