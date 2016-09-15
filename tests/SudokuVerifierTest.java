@@ -12,7 +12,7 @@ public class SudokuVerifierTest {
 		
 		SudokuVerifier verifier = new SudokuVerifier();
 		int result = verifier.verify("1");
-		assertEquals(-1, result);
+		assertEquals(1, result);
 		
 	}
 
