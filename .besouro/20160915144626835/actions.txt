@@ -118,3 +118,11 @@ RefactoringAction 1473946031403 SudokuVerifier.java ADD String METHOD
 RefactoringAction 1473946035921 SudokuVerifier.java REMOVE createRaw(String) METHOD
 RefactoringAction 1473946051951 SudokuVerifier.java ADD String METHOD
 EditAction 1473946128370 SudokuVerifier.java 598 2 4 0
+CompilationAction 1473946128632 SudokuVerifier.java
+CompilationAction 1473946202766 SudokuVerifier.java
+CompilationAction 1473946202928 SudokuVerifier.java
+RefactoringAction 1473947029154 SudokuVerifier.java ADD boolean check FIELD
+RefactoringAction 1473947031166 SudokuVerifier.java RENAME check=>boolean checkRaw() METHOD
+RefactoringAction 1473947146837 SudokuVerifier.java RENAME checkRaw()=>boolean checkRaw(String) METHOD
+RefactoringAction 1473947254978 SudokuVerifier.java RENAME createRaw(String)=><initializer /1> null
+EditAction 1473947307403 SudokuVerifier.java 575 2 6 0

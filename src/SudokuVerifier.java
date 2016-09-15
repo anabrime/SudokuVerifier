@@ -14,22 +14,22 @@ public class SudokuVerifier {
 			if((candidateSolution.charAt(i)<1 || candidateSolution.charAt(i)>9)) return -1;
 		}
 
-
-
-
+			
 		return 0;
 	}
-	public String[] createRaw(String candidateSolution){
-		for(int l = 0; l < 9; l++){
-			for (int k = 0; k < 9; k++) {
 
-				char[] raw = new char[9];
-
-				raw[k] = candidateSolution.charAt(l);
-			}
-			return raw;
-
+	
+	public boolean checkRaw(String candidateSolution){
+		
+		char[] raw = new char[9];
+		
+		for (int i = 0; i < 9; i++) {
+			
+			raw[i] = candidateSolution.charAt(i);
+			
 		}
+		
+		return true;
 	}
 }
 
