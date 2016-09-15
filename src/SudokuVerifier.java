@@ -6,15 +6,14 @@ public class SudokuVerifier {
 
 		//Que mida 81 y este entre 1 y 9
 
-		int i = 0;
-		while (candidateSolution.length()==81 && (candidateSolution.charAt(i)>=1 && candidateSolution.charAt(i)<=9)&& i<81) {	
-			i++;
-		}
+		if(candidateSolution.length() == 81) return -5;
 		
-		if(i == 2){
-			return 1;
-		}else{
-			return -1;
+		for (int i = 0; i < 81; i++) {
+			if(candidateSolution.charAt(i)>=1 && candidateSolution.charAt(i)<=9){
+				
+			}else{
+				return -1;
+			}
 		}
 	}
 
