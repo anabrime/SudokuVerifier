@@ -3,3 +3,6 @@ RefactoringAction 1473942043085 SudokuVerifier.java ADD void checkColumn() METHO
 RefactoringAction 1473942388833 SudokuVerifier.java RENAME checkColumn()=>void checkColumn(String) METHOD
 RefactoringAction 1473942561858 SudokuVerifier.java REMOVE checkColumn(String) METHOD
 EditAction 1473943009087 SudokuVerifier.java 354 1 3 0
+FileOpenedAction 1473943032864 SudokuVerifierTest.java 390 1 1 0
+FileOpenedAction 1473943069597 SudokuVerifierParametrizedTest.java 172 1 1 0
+EditAction 1473943428791 SudokuVerifier.java 360 1 3 0

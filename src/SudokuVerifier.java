@@ -16,6 +16,9 @@ public class SudokuVerifier {
 			return -1;
 		}
 	}
+	
+	
+	
 
 
 	//check
