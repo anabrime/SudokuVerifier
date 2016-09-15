@@ -10,16 +10,18 @@ public class SudokuVerifier {
 		
 		for (int i = 0; i < 81; i++) {
 			
-			if(candidateSolution.charAt(i)>=1 && candidateSolution.charAt(i)<=9){
-				
-			}else{
-				return -1;
+			if(!(candidateSolution.charAt(i)>=1 && candidateSolution.charAt(i)<=9)) return -1;
+
 			}
 		}
 	}
+	
+	
+	
+	
 
 
 	//check
-}
+
 
 
