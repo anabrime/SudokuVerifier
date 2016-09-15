@@ -14,7 +14,7 @@ public class SudokuVerifier {
 		if(i == 81){
 			return 1;
 		}else{
-			return -1;
+			return 1;
 		}
 	}
 
