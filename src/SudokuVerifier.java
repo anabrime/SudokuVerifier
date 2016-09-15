@@ -6,7 +6,7 @@ public class SudokuVerifier {
 
 		//Que mida 81 y este entre 1 y 9
 
-		if(candidateSolution.length() == 81) return -5;
+		//if(candidateSolution.length() == 81) return -5;
 		
 		for (int i = 0; i < 81; i++) {
 			
