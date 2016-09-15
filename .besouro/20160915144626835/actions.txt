@@ -39,3 +39,5 @@ RefactoringAction 1473943891711 SudokuVerifier.java ADD int i/2 FIELD
 RefactoringAction 1473943893725 SudokuVerifier.java REMOVE i FIELD
 RefactoringAction 1473943893725 SudokuVerifier.java REMOVE i/2 FIELD
 EditAction 1473944207579 SudokuVerifier.java 384 1 2 0
+CompilationAction 1473944207834 SudokuVerifier.java
+EditAction 1473944329376 SudokuVerifier.java 384 1 2 0
