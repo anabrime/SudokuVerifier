@@ -9,7 +9,11 @@ public class SudokuVerifierTest {
 
 	@Test
 	public void testVerify() {
-		fail("Not yet implemented");
+		
+		SudokuVerifier verifier = new SudokuVerifier();
+		int result = verifier.verify("17469825632158947958723316825347169791586432346912758289634571573291684164875293");
+		assertEquals(-1, result);
+		
 	}
 
 }
