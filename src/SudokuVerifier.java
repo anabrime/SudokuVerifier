@@ -15,6 +15,11 @@ public class SudokuVerifier {
 		}
 
 
+
+
+		return 0;
+	}
+	public String[] createRaw(String candidateSolution){
 		for(int l = 0; l < 9; l++){
 			for (int k = 0; k < 9; k++) {
 
@@ -22,13 +27,10 @@ public class SudokuVerifier {
 
 				raw[k] = candidateSolution.charAt(l);
 			}
-
-
+			return raw;
 
 		}
-		return 0;
 	}
-
 }
 
 
