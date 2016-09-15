@@ -11,7 +11,7 @@ public class SudokuVerifier {
 			i++;
 		}
 		
-		if(i == 0){
+		if(i == 2){
 			return 1;
 		}else{
 			return -1;
